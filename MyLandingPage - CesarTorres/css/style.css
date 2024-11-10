@@ -1,0 +1,249 @@
+body{
+    font-family: 'Arial';
+    background-color: white;
+}
+
+hr{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#encabezado{
+    position: absolute;
+    height: 20%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#encabezado hr{
+    color: white;
+}
+
+.nombre_web{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.titulo_pagina{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#cuerpo{
+    position: absolute;
+    height: 70%;
+    top: 20%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+section h2{
+    color: #004080;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2{
+    color: #004080;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+article{
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border: 3px solid #004080;
+    border-radius: 15px;
+    max-width: 30%;
+    margin-top: 20px;
+
+}
+
+.perfil{
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border: 3px solid #004080;
+    border-radius: 15px;
+    max-width: 90%;
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+
+.contacto{
+    background-color: #004080;
+    color: white;
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 29px;
+    margin: 0% 79.5%;
+    margin-top: 20px;
+}
+
+.contacto h2{
+    color: white;
+}
+
+.contacto hr{
+    background-color: white;
+}
+
+.formacion{
+    margin-top: 10%;
+    margin-left: 60px;
+    padding-top: 0px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 50px;
+}
+
+.idiomas{
+    margin-top: 10%;
+    margin-left: 35%;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 33px;
+}
+
+.habilidades{
+    margin-top: 10%;
+    margin-left: 52%;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 3px;
+}
+
+.experiencia{
+    margin-top: 23%;
+    margin-left: 35%;
+    padding-top: 0px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 20px;
+}
+
+article hr{
+    border: 0;
+    height: 2px;
+    background-color: #004080;
+    margin: 10px auto;
+    width: 80%;
+}
+
+
+article p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul li strong{
+    font-weight: bold;
+}
+
+
+.contacto label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contacto input, .contacto textarea{
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.contacto input:hover, .contacto textarea:hover{
+    border: 2px solid #0080ff;
+}
+
+.contacto input:focus, .contacto textarea:focus{
+    border: 2px solid #0080ff;
+    outline: none;
+
+}
+
+.contacto textarea{
+    min-height: 130px;
+}
+
+.contacto button{
+    padding-top: 15px;
+    padding-left: 38%;
+    padding-right: 38%;
+    padding-bottom: 15px;    
+    margin-top: -20px;
+    background-color: white;
+    font-weight: bold;
+    color: #004080;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.contacto button:hover{
+    background-color: #8cc2f8;
+    color: white;
+}
+
+
+#pie{
+    position: absolute;
+    height: 10%;
+    top: 90%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #333333;
+}
+
+#pie p{
+    color: #ffffff;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.telefono{
+    position: absolute;
+    margin-left: 5%;
+}
+
+.email{
+    position: absolute;
+    margin-left: 35%;
+
+}
+
+.direccion{
+    position: absolute;
+    margin-left: 75%;
+}
